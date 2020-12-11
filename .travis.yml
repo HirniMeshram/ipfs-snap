@@ -7,6 +7,7 @@ go: stable
 arch:
   - amd64
   - arm64
+  - arm64-graviton2
 
 cache:
   directories: [$HOME/.cache/snapcraft/]
