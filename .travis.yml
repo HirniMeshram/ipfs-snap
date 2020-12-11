@@ -1,5 +1,7 @@
 dist: xenial
-sudo: required
+group: edge
+virt: lxd
+sudo: true
 
 language: go
 go: stable
